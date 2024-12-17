@@ -1,0 +1,25 @@
+.navbar{
+    background-color: beige;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.siteName{
+    font-size: 25px;
+    cursor: pointer;
+}
+.siteName:hover{
+    text-shadow: 3px 3px 5px gray;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}

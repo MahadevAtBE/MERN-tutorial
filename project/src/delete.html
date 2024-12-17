@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="navbar bg-purple-500 h-12 flex items-center justify-evenly">
+        <div class="name">Site Name</div>
+        <ul class="flex items-center gap-9">
+            <a href="/"><li>home</li></a>
+            <a href="/signUp"><li>Sign Up</li></a>
+            <a href="/login"><li>Login</li></a>
+            <a href="/main"><li>main</li></a>
+            <a href="/delete"><li>delete</li></a>
+        </ul>
+    </div>
+    <h2 class="text-6xl">Delete Account</h2>
+    <div class="body h-60 w-72 rounded-lg border border-black mx-auto my-16 p-5 flex items-center justify-center bg-gray-600 text-white">
+        <form method="post" action="/delete" class=" flex items-center justify-center flex-col gap-1">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" class="border px-4 border-black rounded-full bg-gray-500">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" class="border px-4 border-black rounded-full bg-gray-500">
+            <input type="submit" value="delete">
+        </form>
+    </div>
+</body>
+</html>

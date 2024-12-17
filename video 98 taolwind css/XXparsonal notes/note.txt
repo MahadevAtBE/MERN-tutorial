@@ -1,0 +1,21 @@
+install Tailwind CSS IntelliSense extention on vs code
+now we can use Tailwind CSS via cdn https://tailwindcss.com/docs/installation/play-cdn
+
+to install npm install -D tailwindcss
+to initialize npx tailwindcss init -p { to creat post css file}
+this wull create tailwind.config.js {to customize tailwindcss}
+
+now make a input file
+src/input.css https://tailwindcss.com/docs/installation
+now get the codes from the website to sre/input
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+now edit the content 0f tailwind.config.js  to ["./src/**/*.{html,js}"] // it allowa so watch all html and js files by tailwind
+["*.html"] to watch on only html
+
+now run the command to get tailwind to watch on html files
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+this will make a output.css file
+now we have to include this on our html

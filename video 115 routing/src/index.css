@@ -1,0 +1,11 @@
+.red{
+  background-color: red;
+  color: white;
+}
+div{
+  display: flex;
+  background-color: blueviolet;
+}
+li{
+  padding: 7px 12px;
+}

@@ -1,0 +1,12 @@
+download mongoDB (comunity virsion)
+download mongoDB coumpas / mongoDB extention on vs code to manage DB gui interface
+
+some mongoDB commands
+show databases - to list all databases
+use "dbs_name" - to change the current databases
+db."collection".find() - show all datas
+db."collection".insertOne({key:value})
+db."collection".insert({key:value})
+
+plyground
+plyground is a script to perform crud on db

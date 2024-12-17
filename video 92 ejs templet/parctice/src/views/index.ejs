@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body>
+    <div class="h-">
+        <%- include('./partials/header',{siteName:"Sekhar"}) %>  
+        <%- include('./partials/footer') %>  
+    </div>
+
+</body>
+</html>
+
+<!-- 
+note:
+to watch the ejs file and update css
+  content: ["./views/**/*.ejs"],  // ejs file location
+ npx tailwindcss -i ./views/input.css -o ./views/output.css --watch  // css input output location
+-->

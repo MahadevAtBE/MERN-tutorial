@@ -1,0 +1,7 @@
+you have to write a node js program to clear clutter inside a directry and organize
+the ci=ontent of  that directry inti different folders
+
+for example 
+
+png files to png folders
+jpg files to jpg folders

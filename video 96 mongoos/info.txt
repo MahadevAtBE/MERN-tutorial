@@ -1,0 +1,2 @@
+mongoos (package) is a js oop library that creat a cunnection between mongoDB and nodejs.
+also give you the ability to control data type and requirdity on db insertion.
